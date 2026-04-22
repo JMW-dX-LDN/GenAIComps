@@ -1,7 +1,7 @@
 # Copyright (C) 2024 Intel Corporation
 # SPDX-License-Identifier: Apache-2.0
 
-FROM python:3.10-slim
+FROM python:3.14.4-slim
 RUN useradd -m -s /bin/bash user && \
     mkdir -p /home/user && \
     chown -R user /home/user/
