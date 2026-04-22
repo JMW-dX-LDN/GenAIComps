@@ -1,7 +1,7 @@
 # Copyright (C) 2024 Intel Corporation
 # SPDX-License-Identifier: Apache-2.0
 
-FROM python:3.11-slim
+FROM python:3.14.4-slim
 
 # Set environment variables
 ENV LANG=en_US.UTF-8
